@@ -38,7 +38,7 @@ public class Jobs4utech2
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		
-		for(int i=1; i<=5; i++)
+		for(int i=1; i<=150; i++)
 		{
 			//System.out.println(i+">"+js.executeScript("scroll(0,"+i*1000+")"));
 			js.executeScript("scroll(0,"+i*1000+")");
